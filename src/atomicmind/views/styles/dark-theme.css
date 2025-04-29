@@ -1,0 +1,54 @@
+/* 📌 Botones generales con tono verde */
+.button {
+    -fx-background-color: linear-gradient(to bottom, #3CB371, #2E8B57); /* Verde Esmeralda */
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 12px 20px;
+    -fx-background-radius: 8px;
+    -fx-border-width: 1px;
+    -fx-border-color: transparent;
+    -fx-transition: 0.3s;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.3), 5, 0, 0, 2);
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom, #2E8B57, #228B22); /* Verde más oscuro */
+    -fx-border-color: #1E7A44;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+    -fx-effect: dropshadow(three-pass-box, rgba(50, 205, 50, 0.5), 10, 0, 0, 4); /* Resplandor Verde */
+}
+
+/* 📌 Botón de Cerrar Sesión (Rojo Oscuro) */
+.boton-cerrar {
+    -fx-background-color: linear-gradient(to bottom, #FF4444, #B22222); /* Rojo degradado */
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-background-radius: 5px;
+}
+
+.boton-cerrar:hover {
+    -fx-background-color: linear-gradient(to bottom, #CC0000, #8B0000); /* Rojo más intenso */
+    -fx-border-color: #990000;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 0, 0, 0.5), 10, 0, 0, 4);
+}
+
+/* 📌 Botón de Configuración (Gris con Resplandor) */
+.boton-configuracion {
+    -fx-background-color: linear-gradient(to bottom, #555, #444);
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-background-radius: 5px;
+}
+
+.boton-configuracion:hover {
+    -fx-background-color: linear-gradient(to bottom, #444, #333);
+    -fx-border-color: #222;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+    -fx-effect: dropshadow(three-pass-box, rgba(192, 192, 192, 0.5), 10, 0, 0, 4);
+}
